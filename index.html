@@ -5,6 +5,28 @@
   <meta charset="utf-8"><!-- This is the character set that the browser will read the html in, utf-8 includes all characters and symbols-->
   <meta description='A personal website used for practising and testing HTML, CSS and Javascript' />
   <title>Dragonxnebula's Personal Site</title>
+  <!-- Stylising entire webpages means you can blanket apply to all instances of
+an item or type such as <hr /> to all be the same color etc.. -->
+  <style>
+    /* Style command is CSS so uses a different indication for making comments */
+    body {
+      background-color: #d1a4b3;
+      /* sets entire webpage background to the hexicode */
+    }
+
+    hr {
+      border-style: none;
+      border-top: 7px #152d37 dotted;
+      width: 50px;
+      /*can also be set to a percentage value for consistency on different window sizes*/
+    }
+
+    /* Remember even <hr/> is treated as a four sides box when rendered,
+    setting all sides to style type none and then top to dotted allows for
+    creating a single row of dots with no overlap (These can be set to px size
+    and color adjusted again using hexicode)*/
+
+  </style>
 </head>
 
 <body>
@@ -31,7 +53,7 @@
     <br />
     Also <em><strong>moderate</strong></em> problem solving skills.
   </p>
-  <hr size='4' noshade>
+  <hr size='4'>
   <h3>Self study</h3>
   <ul>
     <!-- Unordered list, i.e Bullet points-->
@@ -50,8 +72,10 @@
   <hr size='2'>
   <h3>Skills</h3>
 
-  <table border='3' noshade>
-    <!-- Nested tables in html can make the programming difficult to read and make sense of but can be used to adjust the display if really needed.-->
+  <table border="3">
+    <!-- Nested tables in html can make the programming difficult to read
+    and make sense of but can be used to adjust the display if really
+    needed.-->
     <td>
       <table>
         <tr>
