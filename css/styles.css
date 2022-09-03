@@ -1,0 +1,32 @@
+body {
+    background-color: #d1a4b3;
+    /* sets entire webpage background to the hexicode */
+  }
+
+hr {
+    border-style: none;
+    border-top: 7px #152d37 dotted;
+    width: 50px;
+    /*can also be set to a percentage value for consistency on different window sizes*/
+  }
+
+  /* Remember even <hr/> is treated as a four sides box when rendered,
+  setting all sides to style type none and then top to dotted allows for
+  creating a single row of dots with no overlap (These can be set to px size
+  and color adjusted again using hexicode)*/
+
+h1 {
+  color: #60264e;
+
+}
+
+h3 {
+  color: #60264e;
+}
+  /* Style command is CSS so uses a different indication for making comments */
+
+  /********* CLASS SELECTORS **********/
+
+  .link:hover {
+    background-color: gold;
+  }
