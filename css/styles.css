@@ -1,5 +1,5 @@
 body {
-    background-color: #d1a4b3;
+    background-color: #2C394B;
     /* sets entire webpage background to the hexicode */
   }
 
@@ -15,14 +15,10 @@ hr {
   creating a single row of dots with no overlap (These can be set to px size
   and color adjusted again using hexicode)*/
 
-h1 {
-  color: #60264e;
-
+.text {
+  color: #E7F6F2;
 }
 
-h3 {
-  color: #60264e;
-}
   /* Style command is CSS so uses a different indication for making comments */
 
   /********* CLASS SELECTORS **********/
